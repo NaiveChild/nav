@@ -1,0 +1,373 @@
+.w1200{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.public-banner{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1920px;
+	overflow: hidden;
+	position: relative;
+}
+.public-banner div{
+	max-width: 1920px;
+	overflow: hidden;
+}
+.public-banner .public-banner1{
+	height: 331px;
+	background: url(../images/banner_01.jpg) no-repeat center;
+}
+.public-banner .public-banner2{
+	height: 331px;
+	background: url(../images/banner_02.jpg) no-repeat center;
+}
+.public-banner .public-banner3{
+	height: 331px;
+	background: url(../images/banner_03.jpg) no-repeat center;
+}
+.toplist{
+	width: 100%;
+	height: 86px;
+	background-color: rgba(203,226,250,0.7);
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+}
+.toplist .w1200{
+	height: 75px;
+	padding-top: 10px;
+	line-height: 65px;
+}
+.toplist .w1200 .logo{
+	float: left;
+
+}
+.toplist .w1200 .logo img{
+	vertical-align: middle;
+}
+.toplist .w1200 .logo span{
+	color: white;
+	font-size: 18px;
+	vertical-align: middle;
+}
+.toplist .w1200 .nav>ul{
+	float: right;
+	text-align: center;
+
+}
+.toplist .w1200 .nav ul li:hover{
+	background-color: #30b6e9;
+}
+.toplist .w1200 .nav ul li:hover .hidden{
+	display: block;
+}
+.toplist .w1200 .nav ul li ul li:hover{
+	background-color: #1c6a87;
+}
+.toplist .w1200 .nav ul>li{
+	display: inline-block;
+	width: 140px;
+	
+} 
+.toplist .w1200 .nav li a{
+	font-size: 18px;
+	color: black;
+}
+.toplist .w1200 .nav li img{
+	vertical-align: middle;
+}
+.toplist .w1200 .nav li ul{
+	position: absolute;
+	width: 140px;
+	display: none;
+	line-height: 45px;
+
+}
+.toplist .w1200 .nav li ul li{
+	background-color: #30b6e9;
+
+}
+/* 精选目的地 */
+.destination{
+	width: 100%;
+	height: 904px;
+	margin: 0 auto;
+	max-width: 1920px;
+	overflow: hidden;
+	background-color: #f6f6f6;
+}
+.destination .w1200{
+	height: 904px;
+	position: relative;
+
+}
+.destination .w1200 .place{
+	width: 212px;
+	height: 112px;
+	text-align: center;
+	position: absolute;
+	left: 494px;
+	top: 44px;
+	line-height: 50px;
+}
+.destination .w1200 .place h2{
+	font-size: 36px;
+}
+.destination .w1200 .place p{
+	font-size: 24px;
+}
+.destination .w1200 .pic1{
+	width: 694px;
+	height: 366px;
+	background: url(../images/destination-1.jpg) no-repeat center;
+	position: absolute;
+	top: 150px;
+	box-shadow: 5px 5px 5px #b8b8b8;
+}
+.destination .w1200 .pic1 .text1{
+	width: 260px;
+	height: 224px;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 46px;
+	line-height: 35px;
+}
+.destination .w1200 .pic1 .text1 h2{
+	font-size: 24px;
+
+}
+.destination .w1200 .pic1 .text1 p{
+	font-size: 14px;
+}
+.destination .w1200 .pic2{
+	width: 695px;
+	height: 348px;
+	background: url(../images/destination-2.jpg) no-repeat center;
+	position: absolute;
+	bottom: 0;
+}
+.destination .w1200 .pic2 .text2{
+	width: 260px;
+	height: 224px;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 46px;
+	line-height: 45px;
+}
+.destination .w1200 .pic2 .text2 h2{
+	font-size: 24px;
+
+}
+.destination .w1200 .pic2 .text2 p{
+	font-size: 14px;
+}
+.destination .w1200 .pic3{
+	width: 476px;
+	height: 446px;
+	background: url(../images/destination-3.jpg) no-repeat center;
+	position: absolute;
+	right: 0;
+	top: 180px;
+}
+.destination .w1200 .pic4{
+	width: 476px;
+	height: 254px;
+	background: url(../images/destination-4.jpg) no-repeat center;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+/* 景点新玩法 */
+.newplay{
+	width: 100%;
+	height: 416px;
+	margin: 0 auto;
+	max-width: 1920px;
+	overflow: hidden;
+	background-color: #f6f6f6;
+}
+.newplay .w1200{
+	height: 416px;
+}
+.newplay .w1200 .play{
+	width: 212px;
+	height: 112px;
+	text-align: center;
+	margin-left: 490px;
+	margin-top: 44px;
+	line-height: 50px;
+}
+.newplay .w1200 .play h2{
+	font-size: 36px;
+}
+.newplay .w1200 .play p{
+	font-size: 24px;
+}
+.newplay .w1200 .pic li{
+	float: left;
+	margin-right:33px ;
+	text-align: center;
+}
+.newplay .w1200 .pic li:last-child{
+	margin-right: 0;
+}
+.newplay .w1200 .pic li p{
+	font-size: 30px;
+	color: white;
+	margin-top: -62px;
+}
+/* 住宿新体验 */
+.get{
+	width: 100%;
+	height: 416px;
+	margin: 0 auto;
+	max-width: 1920px;
+	overflow: hidden;
+	background-color: #f6f6f6;
+}
+.get .w1200{
+	height: 416px;
+}
+.get .w1200 .enjoy{
+	width: 300px;
+	height: 112px;
+	text-align: center;
+	margin-left: 450px;
+	margin-top: 44px;
+	line-height: 50px;
+}
+.get .w1200 .enjoy h2{
+	font-size: 36px;
+}
+.get .w1200 .enjoy p{
+	font-size: 24px;
+}
+.get .w1200 .pic-1 li{
+	float: left;
+	margin-right:33px ;
+	text-align: center;
+}
+.get .w1200 .pic-1 li:last-child{
+	margin-right: 0;
+}
+.get .w1200 .pic-1 li p{
+	font-size: 30px;
+	color: white;
+	margin-top: -62px;
+}
+/* 关于我们 */
+.about{
+	width: 100%;
+	height: 904px;
+	margin: 0 auto;
+	max-width: 1920px;
+	overflow: hidden;
+	background-color: #f6f6f6;
+}
+.about .w1200{
+	height: 904px;
+	position: relative;
+
+}
+.about .w1200 .us{
+	width: 168px;
+	height: 96px;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	top: 42px;
+	left: 510px;
+}
+.about .w1200 .us h2{
+	font-size: 36px;
+}
+.about .w1200 .us p{
+	font-size: 24px;
+}
+.about .w1200 .pic5{
+	width: 408px;
+	height: 754px;
+	background: url(../images/about-1.jpg) no-repeat center;
+	position: absolute;
+	bottom: 0;
+}
+.about .w1200 .pic6{
+	width: 360px;
+	height: 360px;
+	background: url(../images/about-2.jpg) no-repeat center;
+	position: absolute;
+	left: 445px;
+	top: 150px;
+}
+.about .w1200 .pic7{
+	width: 360px;
+	height: 360px;
+	background: url(../images/about-3.jpg) no-repeat center;
+	position: absolute;
+	right: 0;
+	top: 150px;
+}
+.about .w1200 .pic8{
+	width: 754px;
+	height: 360px;
+	background: url(../images/about-4.jpg) no-repeat center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+/* 加入我们 */
+.jion{
+	width: 100%;
+	height: 634px;
+	margin: 0 auto;
+	max-width: 1920px;
+	overflow: hidden;
+	background-color: #f6f6f6;
+}
+.jion .w1200{
+	height: 634px;
+	position: relative;
+
+}
+.jion .w1200 .jia{
+	width: 166px;
+	height: 88px;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	top: 42px;
+	left: 510px;
+}
+.jion .w1200 .jia h2{
+	font-size: 36px;
+}
+.jion .w1200 .jia p{
+	font-size: 24px;
+}
+.jion .w1200 .pic9{
+	width: 1200px;
+	height: 482px;
+	background: url(../images/jion.jpg) no-repeat center;
+	position: absolute;
+	bottom: 0;
+}
+.footer{
+	width: 100%;
+	height: 260px;
+	margin: 0 auto;
+	max-width: 1920px;
+	overflow: hidden;
+	background-color: #f6f6f6;
+}
+.footer .footer-pic{
+	height: 130px;
+	margin: 0 auto;
+	max-width: 1920px;
+	background: url(../images/footer.jpg) no-repeat center;
+	margin-top: 130px;
+}
+
